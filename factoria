@@ -1,0 +1,23 @@
+#include<stdio.h>
+//Flores Castillo Cesar Roberto
+
+int main(void){
+	int r, n, i;
+	int d;
+	d=1;
+	while(d==1){
+	printf("Indique el valor de el numero factoria\n");
+	scanf("%d",&n);
+	r=1;
+	for(i=1;i<=n;i++){
+		r=r*i;
+	}
+	printf("La factorial del numero es: %d\n",r);
+	
+	printf("Quiere hacer el calculo para otro numero:\n si(1)\n no(2)\n");
+	scanf("%d",&d);
+  }
+  
+  printf("Gracias por usar la calculadora para la factoria de un numero");
+  return 0;
+}
